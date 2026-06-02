@@ -6,7 +6,6 @@ import Sheets from './Components/Sheets/sheets.jsx'
 import './styles.css'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import CartScreen from './Screens/CartScreen/CartScreen.jsx'
-import AppHeader from './Components/AppHeader/appHeader.jsx'
 import ProductsScreen from './Screens/ProductsScreen/ProductsScreen.jsx'
 import HomeScreen from './Screens/HomeScreen/HomeScreen.jsx'
 

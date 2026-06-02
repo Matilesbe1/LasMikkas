@@ -1,0 +1,48 @@
+:root {
+    --color-principal: #920018;
+    --color-secundario: #F3E9D2;
+    --color-terciario: #1E1E1E;
+}
+
+
+.options-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 50px 50px 50px 50px;
+    border-bottom: 1px solid var(--color-terciario);
+}
+
+.img-button {
+    position: relative;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    overflow: hidden;
+}
+
+.img-button img {
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.img-button:hover img {
+    transform: scale(1.08);
+}
+
+.img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    pointer-events: none;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+.aros{
+    height: 74.5%;
+}

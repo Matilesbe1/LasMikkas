@@ -1,0 +1,13 @@
+
+
+
+.swiper-container img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kaushan+Script&display=swap');
+
+:root {
+    --color-principal: #920018;
+    --color-secundario: #F3E9D2;
+    --color-terciario: #1E1E1E;
+}
+
+.best-title{
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+}
+
+.img-wrapper {
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+.img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.img.hover {
+    opacity: 0;
+}
+
+.img-wrapper:hover .img.hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.img-wrapper:hover .img.base {
+    opacity: 0;
+}
+
+.comprar-button {
+    background-color: var(--color-principal);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+    font-weight:lighter;
+    
+}
+
+.comprar-button:hover {
+    cursor: pointer;
+    background-color: #2A0007;
+}

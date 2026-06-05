@@ -7,15 +7,15 @@ function Cart() {
     const [cartItems, setCartItems] = useState([
         {
             id: 1,
-            name: 'collar',
-            price: 10,
+            name: 'Collar Libelula',
+            price: 12000,
             image: 'https://res.cloudinary.com/dcijxubv9/image/upload/v1780067905/IMG_9395_gcdvr5.jpg',
             quantity: 1
         },
         {
             id: 2,
-            name: 'Producto 2',
-            price: 20,
+            name: 'Aros Brillos',
+            price: 6500,
             image: 'https://res.cloudinary.com/dcijxubv9/image/upload/v1780068793/IMG_8918_hnj8nk.jpg',
             quantity: 1
 

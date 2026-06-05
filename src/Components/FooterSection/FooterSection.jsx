@@ -18,8 +18,8 @@ const FooterSection = () => {
                     <img src="https://getlogovector.com/wp-content/uploads/2023/12/mercado-pago-logo-vector-2023.png" alt="Mercado Pago" />
                 </div>
                 <div className='social-media-buttons'>
-                    <button><i class="bi bi-instagram"><a href="https://www.tiktok.com/@lasmikkas?lang=es-419"></a></i></button>
-                    <button><i class="bi bi-tiktok"><a href=""></a></i></button>
+                    <button><i className="bi bi-instagram"><a href="https://www.tiktok.com/@lasmikkas?lang=es-419"></a></i></button>
+                    <button><i className="bi bi-tiktok"><a href=""></a></i></button>
                 </div>
             </div>
         </div>
